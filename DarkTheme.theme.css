@@ -1,4 +1,4 @@
-//META{"name":"DarkTheme","description":"A nicer 'Dark' theme for Discord, including a revamped roles screen in Server Settings. :)","author":"xSklzx Dark","version":"1.0"}*//
+//META{"name":"DarkTheme","description":"A nicer 'Dark' theme for Discord, including a revamped roles screen in Server Settings. -- test :)","author":"xSklzx Dark","version":"1.0"}*//
 
 .settings-header {
   background:#213248 !important;
@@ -89,6 +89,36 @@ background-color: #1a2838 !important ;
 .markdown-modal ul li {
 	background: #213248 !important;
 	color: white !important;
+}
+
+#voice-connection .btn-info:after {
+	background-color: #535559;
+	opacity: 1;
+}
+
+#voice-connection .btn:after {
+	background-color: #535559;
+	opacity: 1;
+}
+
+#voice-connection .btn-info:hover:after {
+	background-color: #535559;
+	opacity: 1;
+}
+
+#voice-connection .btn-disconnect:after {
+	background-color: #535559;
+	opacity: 1;
+}
+
+#voice-connection .btn:after {
+	background-color: #535559;
+	opacity: 1;
+}
+
+#voice-connection .btn-disconnect:hover:after {
+	background-color: #535559;
+	opacity: 1;
 }
 
 .markdown-modal .markdown-modal-footer {
