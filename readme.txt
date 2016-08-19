@@ -26,3 +26,4 @@
 
 // Once again, thank you for downloading my theme and please give me constructive criticism on how to improve. <3 \\
 
+// If you find anything what doesn't look good. Please PM me on Discord by adding: xSklzx Dark#8330 or by tweeting me on twitter at: https://twitter.com/xSklzxDark \\
