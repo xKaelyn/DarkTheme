@@ -1,8 +1,10 @@
-// Thank you for downloading DarkTheme. This is the first theme I have ever made for Discord, and it's an improved 'Dark' version of Discord. \\
-// Please note: If your Discord isn't in 'Dark' mode, this theme will not work correctly. \\
+Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- 
+
+~~ Thank you for downloading DarkTheme. This is the first theme I have ever made for Discord, and it's an improved 'Dark' version of Discord. **
+~~ Please note: If your Discord isn't in 'Dark' mode, this theme will not work correctly. **
 
 
-// How to install \\
+~~ How to install ~~
 
 1. Open Run by pressing the Windows Key & R.
 
@@ -24,8 +26,8 @@
 
 10. Finally, click the 'Enabled' box and the theme should enable :3.
 
-// Once again, thank you for downloading my theme and please give me constructive criticism on how to improve. <3 \\
+~~ Once again, thank you for downloading my theme and please give me constructive criticism on how to improve. <3 **
 
-// If you find anything what doesn't look good. Please PM me on Discord by adding: xSklzx Dark // DarkEDM#8330, Joining my Discord server [Discord][https://discord.gg/YcApP8f] or by tweeting me on twitter at: https://twitter.com/xSklzxDark \\
+~~ If you find anything what doesn't look good. Please PM me on Discord by adding: xSklzx Dark ~~ DarkEDM#8330, Joining my Discord server [Discord](https:~~discord.gg/YcApP8f) or by tweeting me on twitter at: https:~~twitter.com/xSklzxDark **
 
-// Please don't tell me about the 'settings' bug, as I know that's there and working hard on fixing it. \\
+~~ Please don't tell me about the 'settings' bug, as I know that's there and working hard on fixing it. **
