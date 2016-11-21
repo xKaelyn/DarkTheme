@@ -1,5 +1,14 @@
 //META{"name":"DarkTheme","description":"A nicer 'Dark' theme for Discord, including a revamped roles screen in Server Settings. -- test :)","author":"xSklzx Dark","version":"1.0"}*//
 
+.app {
+	background: url(http://i.imgur.com/9MOltGx.jpg) !important;
+	background-size: cover !important
+}
+
+#friends .friends-table .friends-table-body {
+	background: transparent !important;
+}
+
 .settings-header {
   background:#213248 !important;
 
@@ -239,7 +248,7 @@ background-color: #1a2838 !important ;
 }
 
 .guilds-wrapper {
-  background:#2e3136 !important;
+  background:rgba(0,0,0,0.65) !important;
 
 }
 
