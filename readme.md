@@ -1,6 +1,7 @@
 Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- 
 
 ~~ Thank you for downloading DarkTheme. This is the first theme I have ever made for Discord, and it's an improved 'Dark' version of Discord. **
+
 ~~ Please note: If your Discord isn't in 'Dark' mode, this theme will not work correctly. **
 
 
