@@ -1,6 +1,6 @@
 Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder --
 
-~ Current Version; 0.0.0.2 ~ 
+~ Current Version; 0.0.0.3 | Check my [Trello](https://trello.com/b/A0RTJrm6/darktheme-progress-tracker) to see my current progress! ~ 
 
 ~~ Thank you for downloading DarkTheme. This is the first theme I have ever made for Discord, and it's an improved 'Dark' version of Discord. **
 

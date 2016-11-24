@@ -1,7 +1,7 @@
-﻿//META{"name":"DarkTheme","description":"A combination of black, red and white, to achieve complexion and simplicity. | Frequently updated.","author":"xSklzx Dark","version":"0.0"}*//{}
+﻿//META{"name":"DarkTheme","description":"A nicer Dark theme for Discord, remade into something spectacular with frequent updates.","author":"xSklzx Dark","version":"0.0"}*//{}
 
 .theme-dark .message-group:not(.has-divider) {
-    background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0);
 }
 
 .chat .messages {
@@ -18,7 +18,7 @@
 
 .theme-dark .channel-textarea-inner {
     background-color: rgb(0, 0, 0);
-    opacity: 1;
+	opacity: 1;
     color: white !important;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .guild-settings-modal-overview .settings-panel .verification-level-select .radio-group li.level-0 {
-    color: white;
+ 	color: white;
     opacity: 1;
 }
 
@@ -237,7 +237,7 @@
 
 .form .Select-option.is-focused {
     background: black;
-    color: white;
+   	color: white;
 }
 
 .notification-settings-modal .settings-section {
@@ -292,7 +292,7 @@
 }
 
 #instant-invite-modal .form-actions {
-    background: black;
+   	background: black;
     color: white;
     opacity: 1;
 }
@@ -331,7 +331,7 @@
 }
 
 .modal-content .form-inner p {
-    color: white;
+  	color: white;
 }
 
 #instant-invite-modal .clipboard-input-inner input {
@@ -708,4 +708,73 @@
 .guild-settings-modal-emoji .no-emoji p {
     color: white;
     opacity: 1;
+}
+
+.upload-modal {
+    background: black;
+    color: white;
+    opacity: 1;
+}
+
+.upload-modal .footer {
+    background: red;
+}
+
+.upload-modal .inner {
+    border: 2px dashed red;
+}
+
+.upload-modal .inner .file .icon.image {
+    border: 2px solid red;
+}
+
+.upload-modal .inner .comment .label .optional {
+    color: red;
+    opacity: 0.6;
+}
+
+.upload-modal .footer .button {
+    background: transparent;
+}
+
+.upload-modal .footer .button-primary {
+    color: white;
+    opacity: 1;
+}
+
+.upload-modal .footer .button-primary {
+	color: white;
+	opacity: 1;
+	-webkit-transition: opacity .2s ease-in-out
+	-moz-transition: opacity .2s ease-in-out
+	-o-transition: opacity .2s ease-in-out
+	-ms-transition: opacity .2s ease-in-out
+	transition: opacity .2s ease-in-out
+}
+
+.upload-modal .footer .button:hover {
+	text-decoration: none;
+}
+
+.upload-modal .inner .comment .channel-textarea .channel-textarea-inner {
+    border-color: #fff;
+    border: 1px dashed white;
+    border-radius: 10px;
+}
+
+.upload-modal .inner .comment .channel-textarea .channel-textarea-inner textarea {
+    color: white;
+}
+
+.upload-drop-modal .inner {
+	background-color: black;
+	border: 2px dashed white;
+}
+
+.in .upload-drop-modal .bgScale {
+	background-color: red;
+}
+
+.upload-drop-modal .inner .instructions {
+	color: white;
 }
