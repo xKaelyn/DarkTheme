@@ -882,3 +882,42 @@
 #bd-customcss-detach-container {
     background: black;
 }
+
+#settings-roles .roles {
+    background: black;
+}
+
+#settings-roles h1 {
+    color: white;
+    opacity: 1;
+}
+
+#settings-roles .roles li:hover {
+    background: black;
+}
+
+#settings-roles .roles li.selected {
+    background: black;
+}
+
+#permissions .permissions-helpdesk:hover {
+    color: red;
+    opacity: 1;
+}
+
+#permissions .permissions-helpdesk {
+    color: red;
+    opacity: 1;
+}
+
+.btn-help {
+    background: blue;
+}
+
+.tooltip.tooltip-top:after {
+    border-top-color: red;
+}
+
+.tooltip.tooltip-right:after {
+    border-right-color: red;
+}
