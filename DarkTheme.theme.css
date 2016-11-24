@@ -1,7 +1,7 @@
-﻿//META{"name":"DarkTheme","description":"A nicer Dark theme for Discord, remade into something spectacular with frequent updates.","author":"xSklzx Dark","version":"0.0"}*//{}
+﻿//META{"name":"DarkTheme","description":"A combination of black, red and white, to achieve complexion and simplicity. | Frequently updated.","author":"xSklzx Dark","version":"0.0"}*//{}
 
 .theme-dark .message-group:not(.has-divider) {
-	background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
 }
 
 .chat .messages {
@@ -18,7 +18,7 @@
 
 .theme-dark .channel-textarea-inner {
     background-color: rgb(0, 0, 0);
-	opacity: 1;
+    opacity: 1;
     color: white !important;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .guild-settings-modal-overview .settings-panel .verification-level-select .radio-group li.level-0 {
- 	color: white;
+    color: white;
     opacity: 1;
 }
 
@@ -237,7 +237,7 @@
 
 .form .Select-option.is-focused {
     background: black;
-   	color: white;
+    color: white;
 }
 
 .notification-settings-modal .settings-section {
@@ -292,7 +292,7 @@
 }
 
 #instant-invite-modal .form-actions {
-   	background: black;
+    background: black;
     color: white;
     opacity: 1;
 }
@@ -331,7 +331,7 @@
 }
 
 .modal-content .form-inner p {
-  	color: white;
+    color: white;
 }
 
 #instant-invite-modal .clipboard-input-inner input {
@@ -458,4 +458,254 @@
 
 .guild-settings-modal-members h6 {
     color: white;
+}
+
+.theme-dark #friends .friends-header {
+    background-color: black;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1px
+}
+
+#friends .friends-table .friends-row, #friends .friends-table .friends-table-header {
+    background-color: black;
+}
+
+.theme-dark #friends {
+    background-color: black;
+}
+
+.private-channels .search-bar {
+    background-color: black;
+    border-bottom: 2px solid #fff;   
+}
+
+.search-bar input {
+    color: white;
+}
+
+.private-channels .channel .channel-name {
+    color: white;
+    opacity: 1;
+}
+
+.theme-dark #friends .friends-table .friends-table-header .friends-column {
+    color: white;
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-description, #friends .friends-table .friends-row .discord-tag .username, #friends .friends-table .friends-row .friends-column-status .status-text {
+    color: white;
+}
+
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 30%;
+}
+
+.private-channels .channel .avatar-small {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 30%;
+}
+
+.account .avatar-small {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 30%;
+}
+
+.private-channels .channel.selected .icon-friends {
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+}
+
+.tooltip {
+    background: red;
+}
+
+.user-popout .header {
+    background: black;
+    border-bottom: 1px solid #fff;
+}
+
+.user-popout .username-wrapper .activity {
+    color: white;
+    opacity: 1;
+}
+
+.user-popout .username-wrapper.has-nickname .discriminator, .user-popout .username-wrapper.has-nickname .username {
+    color: white;
+    opacity: 1;
+}
+
+.user-popout .body {
+    background: black;
+}
+
+.user-popout .footer {
+    background: black;
+    border-top: 1px solid #fff;
+}
+
+.quick-message {
+    background: black;
+    color: white;
+    opacity: 1;
+}
+
+.user-popout .body .section .label {
+    color: red;
+}
+
+.user-popout .body .section .label .icon {
+    color: red;
+}
+
+.note textarea {
+    color: white;
+    opacity: 1;
+}
+
+.protip {
+    color: white;
+}
+
+.member-roles .member-role.member-role-add {
+    background: black;
+}
+
+.member-roles .member-role.member-role-add button {
+    color: white;
+}
+
+.note textarea:focus {
+    background: black;
+}
+
+.tooltip.tooltip-right {
+    background: red;
+}
+
+.new-messages-indicator.new-messages-indicator-mention {
+    background-color: red;
+    opacity: 0.99;
+}
+
+.theme-dark .themed-popout .header {
+    background: black;
+    border-bottom: 1px solid #fff;
+}
+
+.context-menu .item {
+    background: black;
+}
+
+.theme-dark.context-menu .item {
+    color: white;
+}
+
+.context-menu {
+    background: black;
+}
+
+.context-menu .item-group {
+    background: black;
+}
+
+.theme-dark.context-menu .item-group {
+    border-color: #fff;
+}
+
+.theme-dark.context-menu .item-subMenu {
+    background: black;
+    color: white;
+}
+
+.context-menu .item.danger {
+    color: red !important;
+}
+
+#voice-connection {
+    background: black;
+    border-bottom: 0px;
+}
+
+#voice-connection .voice-connection-channel {
+    color: white;
+    opacity: 1;
+}
+
+.account .account-details .discriminator {
+    opacity: 0.7;
+}
+
+.channel-textarea-inner textarea
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.guild-settings-modal-emoji {
+    background: black;
+}
+
+.guild-settings-modal-emoji .no-emoji {
+    background: black;
+}
+
+.guild-settings-modal-emoji, .guild-settings-modal-emoji .no-emoji, .guild-settings-modal-members {
+    background: black;
+}
+
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
+    color: red;
+}
+
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
+    color: white;
+    opacity: 1;
+}
+
+.guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.guild-settings-modal-emoji .emoji-row:hover .emoji-name {
+    background: black;
+    color: white;
+}
+
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    background: black;
+    color: white;
+}
+
+.guild-settings-modal-emoji .table-header {
+    color: white;
+    opacity: 1;
+}
+
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username {
+    color: white;
+    opacity: 1;
+}
+
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-avatar {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 30%;
+}
+
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    border-color: #dadddf;
+}
+
+.guild-settings-modal-emoji .no-emoji p {
+    color: white;
+    opacity: 1;
 }
