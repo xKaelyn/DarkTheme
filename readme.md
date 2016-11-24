@@ -31,4 +31,4 @@ Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Place
 
 ~~ If you find anything what doesn't look good. Please PM me on Discord by adding: xSklzx Dark // DarkEDM#8330, Joining my Discord server [Discord](https://discord.gg/YcApP8f) or by tweeting me on twitter at: https://twitter.com/xSklzxDark **
 
-~~ Please don't tell me about the 'settings' bug, as I know that's there and working hard on fixing it. **
+~~ Please note, this theme is no where near complete, so please make an issue on GitHub with your suggestion for the theme :) ~~
