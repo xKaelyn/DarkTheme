@@ -1,853 +1,461 @@
-//META{"name":"DarkTheme","description":"A nicer 'Dark' theme for Discord, including a revamped roles screen in Server Settings. -- test :)","author":"xSklzx Dark","version":"1.0"}*//
+﻿//META{"name":"DarkTheme","description":"A nicer Dark theme for Discord, remade into something spectacular with frequent updates.","author":"xSklzx Dark","version":"0.0"}*//{}
 
-.app {
-	background: url(http://i.imgur.com/9MOltGx.jpg) !important;
-	background-size: cover !important
+.theme-dark .message-group:not(.has-divider) {
+	background: rgb(0, 0, 0);
 }
 
-#friends .friends-table .friends-table-body {
-	background: transparent !important;
+.chat .messages {
+    background-color: rgb(0, 0, 0);
 }
 
-.settings-header {
-  background:#213248 !important;
-
-}
-.guild-channels ul .channel-text:hover a {
-background-color: #1a2838 ;
+.chat .empty-message h1 {
+    color: white;
 }
 
-.guild-channels ul .channel-text.selected a {
-background-color: #1a2838 !important ;
+.flex-horizontal>.flex-spacer {
+    background-color:rgb(0, 0, 0);
 }
 
-#twitchcord-button {
-  background-color: transparent !important;  
-  background-image: url(https://openmerchantaccount.com/img2/twitch6aa.png);
-
-}
-
-.twitchcord-button-open {
-  background-image: url(https://openmerchantaccount.com/img2/twitch6aa.png) !important;
-
-}
-
-.tab-bar-item {
-  color:darkgrey !important;
-
-}
-
-.settings-connections-wrapper {
-  background: #1a2838 !important;
-  color: white !important;
-}
-
-.guild-header ul a {
-	color: white !important;
+.theme-dark .channel-textarea-inner {
+    background-color: rgb(0, 0, 0);
 	opacity: 1;
+    color: white !important;
 }
 
-.guild-header.guild-header-open ul {
-	background: #213248 !important;
-	color: white !important;
+.theme-dark .chat form .typing {
+    background: transparent !important;
 }
 
-
-.flex-spacer.flex-vertical {
-  background:#213248 !important;
-
+.theme-dark .message-group .comment .markup {
+    color: white;
 }
 
-.flex-spacer.flex-vertical form {
-  background:none !important;
-
+.channel-textarea-inner textarea {
+    color: white;
+    background-color: rgb(0, 0, 0);
 }
 
-.guild-channels {
-  background-color:#213248 !important;
-
-}
-.chat-empty {
-  background:#213248 !important;
-
-}
-
-.active {
-  background:#213248 !important;
-
-}
-
-.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.settings .settings-inner .settings-panel-header {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.settings .settings-actions {
-	border-top: 0px solid #ffffff;
-}
-
-.slider-bar-fill {
-	background-color: red
-}
-
-.markdown-modal ul li {
-	background: #213248 !important;
-	color: white !important;
-}
-
-#voice-connection .btn-info:after {
-	background-color: #535559;
-	opacity: 1;
-}
-
-#voice-connection .btn:after {
-	background-color: #535559;
-	opacity: 1;
-}
-
-#voice-connection .btn-info:hover:after {
-	background-color: #535559;
-	opacity: 1;
-}
-
-#voice-connection .btn-disconnect:after {
-	background-color: #535559;
-	opacity: 1;
-}
-
-#voice-connection .btn:after {
-	background-color: #535559;
-	opacity: 1;
-}
-
-#voice-connection .btn-disconnect:hover:after {
-	background-color: #535559;
-	opacity: 1;
-}
-
-.markdown-modal .markdown-modal-footer {
-	border-top: 0px solid #213248;
-}
-
-.markdown-modal .markdown-modal-header {
-	border-bottom: 0px solid #213248;
-}
-
-.change-log .changelog-added, .change-log .changelog-added-secondary {
-	background-color: red !important;
-	color: white !important;
-}
-
-.settings .settings-inner .settings-panel-with-header {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.change-log .changelog-fixed{
-  background-color: red !important;
-  color: white !important;
-}
-
-.change-log .changelog-in-progress {
-	background-color: red !important;
-	color: white !important;
-}
-
-.user-settings-modal-games .games-table .games-row .item-alert, .user-settings-modal-games .games-table .games-row .item-delete {
-  background: #213248 !important;
-  color: white !important;
-  border-top: 0px solid #213248 !important;
-}
-
-.user-settings-modal-games .games-table .games-row .item-game {
-  background: #213248 !important;
-  color: white !important; 
-}
-
-.user-settings-modal .settings-wrapper {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.user-settings-modal-games {
-	border-top: 0px solid #213248 !important;
-}
-
-.user-settings-modal-games .games-table .games-row .item-game .game-input {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.hover-roll div {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.user-settings-modal-games .games-table .games-row .item-overlay {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.has-value>.Select-control>.Select-value {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.user-settings-locale .select-item .primary {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.user-settings-locale p {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.notice.notice-streamer-mode {
-  background: #FF0000 !important;
-  color: white !important;
-}
-
-.checkbox .checkbox-inner+span {
-  color: white !important;
-}
-
-.channel-notification-settings .content label {
-	color: white !important;
-}
-
-.radio-inner+span {
-	color: white !important;
-}
-
-.form .radio-group .radio {
-  color: white !important;
-}
-
-.private-channels {
-  background:#213248 !important;
-
-}
-
-.settings .settings-inner .settings-panel {
-  background:#213248 !important;
-}
-
-.user-settings-modal-account .flex-horizontal div {
-  background: #213248;
-}
-
-.selected {
-  background:transparent !important;
-
-}
-
-.guilds-wrapper {
-  background:rgba(0,0,0,0.65) !important;
-
-}
-
-.help-container {
-  background:#1a2838;
-
-}
-
-.instant-invite-popout section {
-  background:#213248 !important;
-}
-
-.instant-invite-popout a {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.clipboard-input-inner {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.clipboard-input-inner button.copy {
-  background-color:#213248 !important;
-  color: white !important;
-}
-
-.clipboard-input-inner input {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.clipboard-input-inner button.tweet {
-  background-image: url("https://httpsimage.com/img/twitterbird.png");
-  background-color: #213248;
-  color: white !important;
-}
-
-.clipboard-input-inner button:first-of-type:before {
+.theme-dark .channel-textarea-inner textarea {
     background: transparent;
-}
-
-.instant-invite-popout section p {
-  color: white !important;
-}
-
-.clipboard-input-inner button.tweet {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.popout header {
-  background-color: red !important;
-  color: white !important;
-}
-
-.streamer-mode-enabled {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.streamer-mode-enabled .streamer-mode-enabled-btn {
-  background: red !important;
-  color: white !important;
-}
-
-.change-log.markdown-modal .scroller-wrap .scroller {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.markdown-modal .scroller-wrap .scroller {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.markdown-modal .markdown-modal-header {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.change-log {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.markdown-modal .markdown-modal-footer {
-  background: red !important;
-  color: white !important;
-}
-
-.form .control-group .help-text {
-  background:#213248 !important;
-  color: white !important;
-}
-
-.radio-inner+span {
-  color: white !important;
-}
-
-.form .btn-default {
-  background-color: #7289da !important;
-  color: white !important;
-}
-
-.form .btn-primary {
-  border-radius: 3px;
-  color: white;
-}
-
-.form header {
-	background:#213248 !important;
-	color: white !important;
-}
-
-.form .form-inner {
-	background: #213248 !important;
-	color: white !important;
-}
-
-.form .form-actions {
-	background: #213248 !important;
-	color: white !important;
-	border-top: 0px solid #213248 !important;
-}
-
-.form .form-header {
-	background: #213248 !important;
-	color: white !important;
-	border-bottom: 0px solid #213248 !important;
-}
-
-.form .btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 600;
-  transition: background-color .2s ease;
-  position: relative;
-  cursor: pointer;
-}
-
-.form .btn-default {
-	border-bottom: 0px solid #213248 !important;
-}
-
-.instant-invites, .instant-invites .instant-invites-header {
-	background: #213248 !important;
-	color: white !important;
-}
-
-.instant-invites .instant-invites-list .instant-invite .show-channel .channel {
-	background: #213248 !important;
-	color: white !important;
-}
-
-.instant-invites .instant-invites-list .instant-invite .code {
-	background: #213248 !important;
-	color: #FFD500 !important;
-}
-
-#voice-connection {
-  background:#1a2838;
-
-}
-
-.private-channels .channel .channel-name {
-	color: white !important;
-	opacity: 1;
-}
-
-.private-channels .search-bar {
-	border-bottom: 0px solid #213248 !important;
-	color: white !important;
-	background: #213248;
-}
-
-.account {
-	border-top: 0.01px solid white !important;
-}
-
-.guilds-wrapper .guilds {
-	opacity: 1;
-	background: #1a2838 !important;
-}
-
-.account .btn {
-	background-color: #1a2838;
-	opacity: 1;
-}
-
-.account .btn-mute:hover:after {
-    background-color: #1a2838;
-    border-right: 0px solid #213248;
-    opacity: 1;
-}
-
-.account .btn-mute:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-mute.disabled:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-deafen:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-deafen.disabled:hover:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-deafen.disabled:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-deafen:hover:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-deafen:after {
-    background-color: #1a2838;
-    opacity: 1;
-}
-
-.account .btn-settings:hover:after {
-	background-color: #1a2838;
-	opacity: 1;
-}
-
-.account .btn-settings:after {
-	background-color: #1a2838;
-	opacity: 1;
-}
-
-.theme-dark .chat .title-wrap {
-	background: #1a2838 !important;
-}
-
-.account .btn-settings {
-	background-color: #1a2845;
-}
-
-#settings-roles .roles .scroller {
-	background: #213248 !important;
-	color: white !important;
-	border-left: 0px solid #ffffff;
-	border-bottom: 1px solid #ffffff !important;
-}
-
-#settings-roles .roles header {
-	background: #213248 !important;
-	color: white !important;
-	opacity: 1;
-	border-bottom: 0px solid #ffffff !important;
-	border-left: 0px solid #ffffff !important;
-	margin-left: 20px !important;
-}
-
-.messages-wrapper {
-	background:transparent !important;
-}
-
-.protip .label {
-	color: red !important;
-}
-
-.tab-bar.SIDE {
-	margin-right: -16px;
-}
-
-.guild-settings-modal-members {
-	background-color: #213248 !important;
-	color: white !important;
-}
-
-.member-roles .member-role>.name {
-	color: black !important;
-}
-
-.protip.modal-footer {
-	color: white;
-}
-
-#settings-roles .roles {
-	background: #213248 !important;
-	color: white !important;
-}
-
-#settings-roles .selected-role .selected-role-inner {
-	background: #213248 !important;
-	color: white !important;
-}
-
-.checkbox .checkbox-inner+span {
-	background: transparent !important;
-	color: white !important;
-}
-
-.settings .settings-inner .user-settings-modal-games-header {
-	border-bottom: 0px solid #213248 !important;
-}
-
-.theme-dark #friends .friends-header {
-	background-color: #1a2838;
-	border-bottom: 0px solid #213248 !important;
-	box-shadow: none;
-}
-
-.account {
-  background:#1a2838 !important;
-  opacity: 1;
-  border-top: 0px solid #213248 !important;
-}
-
-.guild-settings-modal-integrations .guild-settings-modal-integrations-header {
-	background: #213248;
-	color: white !important;
-}
-
-.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {
-	color: white !important;
-}
-
-.links {
-  background:#213248;
-
-}
-
-.markup {
-  color:white !important;
-
-}
-
-.guild-header header{
-  background:#1a2838 !important;
-
-}
-
-.channel-members {
-  background:#1a2838 !important;
-
-}
-
-.settings-actions {
-  background:#213248 !important;
-
-}
-
-
-.checkbox-inner+span {
-  color:black !important;
-
-}
-
-.guild-header span {
-  color:white !important;
-
-}
-
-.title-wrap {
-  background:#1a2838 !important;
-
-}
-
-.typing {
-  background:transparent !important;
-
-}
-
-.help-container:after {
-  background:none !important;
-
-}
-
-.divider.divider-red span {
-  color:white !important;
-  background:transparent !important;
-
-}
-
-.btn-group .btn{
-  background:black !important;
-
-}
-
-.guilds-add {
-   width:100%;
-   height:100%;
-   border-radius:50%;
-   background:#213248;
-   color:#535559;
-   border:1px dashed #535559
-
-}
-
-
-#emote-menu {
-  background:#213248 !important;
-  border:1px solid black;
-
-}
-
-#emote-menu-header span {
-  background:#213248 !important;
-  color:#213248;
-
-}
-
-.channel-textarea-autocomplete {
-  background: #224477 !important;
-
-}
-
-.channel-textarea-autocomplete-inner {
-  background: #224477 !important;
-
-}
-
-.channel-textarea-autocomplete-inner header {
-  background: #224477 !important;
-  color:white !important;
-
-}
-
-.channel-textarea-autocomplete-inner ul li.active {
-  background:grey !important;
-  color:white !important;
-}
-
-.channel-textarea-autocomplete-inner ul li {
-  color:white !important;
-
-}
-
-.user-popout header {
-  background:#213248 !important;
-
-}
-
-
-.user-popout .user-popout-options .btn {
-  background:#213248 !important;
-  border:1px solid black
-
-}
-
-.channel-textarea-autocomplete-inner{
-  border-color:#213248 !important;
-}
-
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-  background:#213248 !important;
-  border-color:white;
-
-}
-
-.form .control-group label {
-  background: #213248;
-  color: white !important;
-
-}
-
-.form .control-group input[type=email], .form .control-group input[type=number], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
-  background: #213248 !important;
-  color: white !important;
-}
-
-.form .control-group .help-text {
-  color:#213248;
-
-}
-
-.radio .radio-inner span:after {
-  background:#213248 !important;
-
-}
-
-.chat .avatar-large {
-     width: 45px;
-     height: 45px;
-     background-size: cover !important;
-     border-radius: 30%;
-}
-
-
-.guild-channels .channel-voice-states li .avatar-small {
-     background-size: cover !important;
-     border-radius: 30%;
+    color: rgb(255, 255, 255);
 }
 
 .bot-tag {
-
+    background-color: red;
 }
 
-.member-role {
-  color:#213248 !important;
-
+.chat .avatar-large {
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    border-radius: 30%;
 }
 
-.tooltip[data-reactid=".0.2.$1"] {
-  background:black;
-
+.account {
+    background: black;
+    border-top: 1px solid #2e3033;
 }
 
-.tooltip[data-reactid=".0.2.$2"] {
-  background:black;
-
+.scroller-wrap .scroller {
+    background: black;
 }
 
-.tooltip[data-reactid=".0.2.$3"] {
-  background:black;
-
+.guild-channels .channel-text.selected a {
+    background-color: #000000;
 }
 
-.guild-channels ul .channel-text:before {
-  border-left:4px solid green !important;
-
+.guild-channels .channel-text .channel-name {
+    color: white;
 }
 
-.channel-members .invite-btn {
-  background:#213248;
-
+.guild-channels .channel .channel-name {
+    color: white;
+    opacity: 1;
 }
 
-.guild-channels ul .channel-text:hover {
-  background:black !important;
+.guild-channels .channel-text:hover a {
+    background: transparent;
 }
 
-.messages-wrapper {
-  background:transparent !important;
+.guild-channels .channel a:hover {
+    background: transparent;
 }
 
-.friends-table {
-  background:transparent !important;
+.theme-dark .friends-table .messages .divider span, .theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before {
+    background-color: red;
 }
 
-.alert-form {
-  background:transparent !important;
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: white;
 }
 
-
-#friends {
-  background:transparent !important;
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background-color: red;
 }
 
-.guild-channels ul .channel-text.selected a {
-background-color: #213248;
+.theme-dark .chat .title-wrap {
+    background: black;
+    border-bottom: 3px solid white;
 }
 
-.tooltip-top:after, .tooltip-right:after {
-  border-top-color:#213248 !important;
-  border-right-color:#213248 !important;
+.guild-header header {
+    background: black;
+    border-bottom: 3px solid white;
+    padding-bottom: 25.5px;
 }
 
-.tooltip {
-  background:red !important;
-
+.theme-dark .channel-members h2 {
+    color: white;
 }
 
-.guild-channels ul .channel-text .channel-name:before {
-  color:white !important;
-
+.channel-members .avatar-small {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    border-radius: 30%;
 }
 
-.guild-channels ul .channel-text.channel-muted:not(.selected) a {
-  opacity: 1;
-
+.theme-dark .channel-textarea-autocomplete-inner {
+    background: black;
 }
 
-.guild-channels ul .channel-text.selected a {
-  background-color:black;
-
+.theme-dark .channel-textarea-autocomplete-inner header {
+    background: black;
+    color: white;
 }
 
-.guilds li.active .guild-inner {
-  background:black !important;
-
+.channel-textarea-autocomplete-inner ul li {
+    color: white;
 }
 
-.guilds li.active .guild-inner, .guilds li:hover .guild-inner {
-  background:black !important;
-
+.channel-textarea-autocomplete-inner .command-description {
+    color: white;
 }
 
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: transparent !important;
-    border: 1px solid #1A2838 !important;
+.popout-menu .popout-menu-item {
+    background: black;
 }
 
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    border-color: transparent !important;
-    background: #1A2838 !important; 
-    border: 1px solid grey !important;
+.popout-menu .popout-menu-item-label {
+    color: white;
+}
+
+.popout-menu .popout-menu-icon {
+    color: white;
+}
+
+.popout-menu .popout-menu-item:hover {
+    background: black;
+}
+
+.form .control-group input[type=text], .form .control-group input[type=email], .form .control-group input[type=password], .form .control-group input[type=number], .form .control-group textarea {
+    background: black;
+    color: white;
+}
+
+.has-value>.Select-control>.Select-placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.form .control-group {
+    background: black;
+    color: white;
+}
+
+.form .control-group label {
+    color: red;
+}
+
+.settings .settings-actions {
+    background-color: black;
+    border-top: 0.5px solid #fff;
+}
+
+.tab-bar.SIDE {
+    background-color: black;
+    color: white;
+}
+
+.tab-bar.SIDE .tab-bar-item {
+    color: white;
+    opacity: 1;
+}
+
+.tab-bar.SIDE .tab-bar-item:before {
+    border-left: 4px solid #ff0000;
+}
+
+.form .control-group .help-text {
+    color: white;
+    opacity: 1;
+}
+
+.guild-settings-modal-overview .settings-panel .verification-level-select .radio-group li .criteria {
+    color: white;
+    opacity: 1;
+}
+
+.guild-settings-modal-overview .settings-panel .verification-level-select .radio-group li.level-0 {
+ 	color: white;
+    opacity: 1;
+}
+
+.form .control-group .help-text a {
+    color: red;
+}
+
+.form .form-inner {
+    background-color: black;
+    border-top: 0px solid #fff;
+}
+
+.form .form-header {
+    background: black;
+    color: red;
+    border-bottom: 0px solid #fff;
+}
+
+.form .form-actions {
+    background-color: black;
+    border-top: 0px solid #fff;
+}
+
+.form header {
+    color: red;
+}
+
+.form .Select-placeholder {
+    background: black;
+    color: white;
+}
+
+.form .Select-option, .form .has-value .Select-placeholder {
+    background: black;
+    color: white;
+}
+
+.form .Select-option.is-focused {
+    background: black;
+   	color: white;
+}
+
+.notification-settings-modal .settings-section {
+    background-color: black;
+}
+
+.form .control-groups+.control-group, .form .control-groups+.control-groups {
+    background-color: black;
+}
+
+.notification-settings-modal .notification-settings-modal-channel-settings-header {
+    background-color: black;
+}
+
+.form .control-groups+.control-group, .form .control-groups+.control-groups {
+    background-color: black;
+}
+
+.flex-spacer {
+    background: black;
+}
+
+.channel-notification-settings .content label {
+    color: white;
+    opacity: 1;
+}
+
+.radio .radio-inner input[type=radio]:checked+span:after {
+    background: red;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background: red;
+    border-color: red;
+}
+
+.radio .radio-inner span:after {
+    background: red;
+}
+
+.form .btn-primary {
+    background: red;
+    opacity: 1;
+}
+
+#bd-customcss-detach-container #bd-customcss-detach-controls-buttons button {
+    background: red;
+}
+
+.form .control-group input[type=text]:focus, .form .control-group input[type=email]:focus, .form .control-group input[type=password]:focus, .form .control-group input[type=number]:focus, .form .control-group textarea:focus {
+    border-bottom: 2px solid #ff0000;
+}
+
+#instant-invite-modal .form-actions {
+   	background: black;
+    color: white;
+    opacity: 1;
+}
+
+#instant-invite-modal .expire-text {
+    color: white;
+    opacity: 1;
+}
+
+#instant-invite-modal .form-header header {
+    color: red;
+    opacity: 1;
+}
+
+#instant-invite-modal .blurb {
+    color: white;
+    opacity: 1;
+}
+
+.form .control-group label a:hover {
+    color: red;
+}
+
+.form .control-group label a {
+    color: red;
+}
+
+.form .btn-default {
+    background-color: transparent;
+    border-bottom: 0px solid #fff;
+    color: red;
+}
+
+.form .btn-default:hover {
+    border-bottom: 0px solid #fff;
+}
+
+.modal-content .form-inner p {
+  	color: white;
+}
+
+#instant-invite-modal .clipboard-input-inner input {
+    background-color: black;
+    color: red;
+}
+
+#instant-invite-modal .copy {
+    background-color: red;
+    color; white;
+}
+
+#instant-invite-modal-advanced .form-actions {
+    background-color: black;
+}
+
+.form .btn-primary:hover {
+    background-color: red;
+}
+
+.instant-invites {
+    background-color: black;
+    color: white;
+}
+
+.instant-invites .instant-invites-header>:first-child {
+    color: white;
+}
+
+.settings .settings-inner .settings-panel-header {
+    color: white;
+}
+
+.instant-invites .instant-invites-list .instant-invite .show-channel .channel {
+    color: white;
+}
+
+.instant-invites .instant-invites-list .instant-invite .show-channel .member {
+    color: red;
+}
+
+.instant-invites .instant-invites-list .instant-invite .code {
+    color: white;
+}
+
+.instant-invites .instant-invites-list .instant-invite+.instant-invite {
+    color: white;
+}
+
+.instant-invites .instant-invites-list .instant-invite {
+    color: white;
+}
+
+.instant-invites .instant-invites-list .instant-invite .countdown.countdown-never {
+    color: red;
+}
+
+.settings .settings-inner .settings-panel-with-header {
+    background: black;
+}
+
+.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p {
+    color: white;
+}
+
+.guild-settings-modal-integrations .guild-settings-modal-integrations-header {
+    background: black;
+    color: white;
+}
+
+.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations .integration-logos {
+    color: white;
+}
+
+.settings .settings-inner .settings-panel-header {
+    background: black;
+}
+
+.guild-settings-modal-members {
+    background: black;
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer a:hover {
+    color: red;
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer a:hover {
+    color: red;
+}
+
+.guild-settings-modal .emoji-row .btn, .guild-settings-modal .member-buttons .btn {
+    background-color: red;
+    color: white;
+}
+
+.guild-settings-modal .emoji-row .btn:hover, .guild-settings-modal .member-buttons .btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.guild-settings-modal .emoji-row .btn+.btn, .guild-settings-modal .member-buttons .btn+.btn {
+    color: white;
+}
+
+.guild-settings-modal .emoji-row .btn.btn-danger:hover, .guild-settings-modal .member-buttons .btn.btn-danger:hover {
+    background: red;
+}
+
+.search-bar.search-bar-light {
+    background: red;
+}
+
+.search-bar.search-bar-light input {
+    color: white;
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer a:hover {
+    color: red;
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer a {
+    color: red;
+}
+
+.guild-settings-modal-members h6 {
+    color: white;
 }
