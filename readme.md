@@ -14,7 +14,7 @@ Placeholder -- Placeholder -- Placeholder -- Placeholder -- Placeholder -- Place
 
 4. Double click 'themes'.
 
-5. Copy the file 'DarkTheme.css' and paste it into the themes folder.
+5. Copy the file 'DarkTheme.theme.css' and paste it into the themes folder.
 
 6. Restart Discord.
 
