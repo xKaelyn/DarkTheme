@@ -109,8 +109,8 @@
 }
 
 .channel-members .avatar-small {
-    width: 25px;
-    height: 25px;
+    width: 28.5px;
+    height: 28.5px;
     background-size: cover;
     border-radius: 30%;
 }
@@ -777,4 +777,108 @@
 
 .upload-drop-modal .inner .instructions {
 	color: white;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item {
+    color: red;
+    opacity: 1;
+}
+
+#friends .friends-table .friends-row .discord-tag .discriminator {
+    color: red;
+    opacity: 1;
+}
+
+.theme-dark #friends .friends-table .friend-table-add-wrapper h2 {
+    color: red;
+}
+
+.theme-dark .add-friend-input-wrapper .add-friend-input {
+    color: white;
+    opacity: 1;
+}
+
+#friends .btn:hover {
+    background: red !important;
+}
+
+#friends .btn {
+    background: red;
+    border: 1px solid white;
+    border-radius: 7.5px;
+}
+
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+    background: black;
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
+    background: black;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: red;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}
+
+#friends .friends-table .friends-row .avatar-large, #friends .friends-table .friends-row .avatar-small {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 30%;
+}
+
+.private-channels .channel .close {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+}
+
+#friends .friends-table .friends-row .friends-suggestion-inner .friends-suggestion-info .friends-suggestion-platforms .friends-suggestion-platform-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+}
+
+#friends .friends-table .friends-row .friends-suggestion-inner .friends-suggestion-info .friends-suggestion-platforms .friends-suggestion-platform-name {
+    font-size: 13px;
+}
+
+.small-popout-box {
+    background: black;
+}
+
+.option-popout .btn-item {
+    color: white;
+    opacity: 1;
+    border-top: 1px solid white;
+}
+
+.guild-channels header {
+    color: white;
+    opacity: 1;
+}
+
+.guild-channels .channel a {
+    color: white;
+    opacity: 1;
+}
+
+.settings .settings-inner .settings-panel {
+    background: black;
+}
+
+.checkbox .checkbox-inner+span {
+    color: white;
+    opacity: 1;
+}
+
+#bd-customcss-detach-container {
+    background: black;
 }
